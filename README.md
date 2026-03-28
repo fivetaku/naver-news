@@ -16,7 +16,15 @@ cp -r skills/naver-news your-project/.claude/skills/naver-news
 
 ## 사용법
 
-Claude Code에서 아래처럼 말하면 됩니다:
+### 슬래시 커맨드 (추천)
+
+```
+/naver-news AI                    → AI 키워드로 뉴스레터 생성
+/naver-news 반도체                → 반도체 뉴스레터 생성
+/naver-news                       → 키워드를 물어본 후 생성
+```
+
+### 자연어로도 가능
 
 ```
 "AI 뉴스 정리해줘"
